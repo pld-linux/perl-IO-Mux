@@ -8,13 +8,13 @@
 Summary:	IO::MUX - an IO stream multiplexing module
 Summary(pl):	IO::MUX - modu³ multipleksera dla strumieni we/wy
 Name:		perl-IO-Mux
-Version:	0.07
+Version:	0.08
 Release:	0.1
 # "same as perl"
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	52b58db6366ff287bf2dddecad7d3ce2
+# Source0-md5:	6cd0d7d9b5a4b5a3caeb610dabaaf5d8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
