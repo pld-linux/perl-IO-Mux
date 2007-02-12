@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Mux
 Summary:	IO::MUX - an IO stream multiplexing module
-Summary(pl):	IO::MUX - modu³ multipleksera dla strumieni we/wy
+Summary(pl.UTF-8):   IO::MUX - moduÅ‚ multipleksera dla strumieni we/wy
 Name:		perl-IO-Mux
 Version:	0.08
 Release:	0.1
@@ -26,11 +26,11 @@ single pipe or socket. This is achieved by creating an "IO::Mux"
 object on each end of the real stream and then creating virtual
 handles ("IO::Mux::Handle" objects) from these "IO::Mux" objects.
 
-%description -l pl
+%description -l pl.UTF-8
 "IO::Mux" pozwala na utworzenie kilku wirtualnych strumieni w oparciu
-o pojedynczy potok lub gniazdo. Jest to osi±gane poprzez tworzenie
-obiektu "IO::Mux" na ka¿dym koñcu rzeczywistego strumienia, a
-nastêpnie tworzenie wirtualnych uchwytów skojarzonych z tymi
+o pojedynczy potok lub gniazdo. Jest to osiÄ…gane poprzez tworzenie
+obiektu "IO::Mux" na kaÅ¼dym koÅ„cu rzeczywistego strumienia, a
+nastÄ™pnie tworzenie wirtualnych uchwytÃ³w skojarzonych z tymi
 obiektami.
 
 %prep
