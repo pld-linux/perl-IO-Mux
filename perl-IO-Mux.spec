@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Mux
 Summary:	IO::MUX - an IO stream multiplexing module
-Summary(pl.UTF-8):   IO::MUX - moduł multipleksera dla strumieni we/wy
+Summary(pl.UTF-8):	IO::MUX - moduł multipleksera dla strumieni we/wy
 Name:		perl-IO-Mux
 Version:	0.08
 Release:	0.1
