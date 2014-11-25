@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	IO
 %define		pnam	Mux
+%include	/usr/lib/rpm/macros.perl
 Summary:	IO::MUX - an IO stream multiplexing module
 Summary(pl.UTF-8):	IO::MUX - moduł multipleksera dla strumieni we/wy
 Name:		perl-IO-Mux
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6cd0d7d9b5a4b5a3caeb610dabaaf5d8
+URL:		http://search.cpan.org/dist/IO-Mux/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
