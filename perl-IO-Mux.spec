@@ -4,7 +4,6 @@
 
 %define		pdir	IO
 %define		pnam	Mux
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::MUX - an IO stream multiplexing module
 Summary(pl.UTF-8):	IO::MUX - moduł multipleksera dla strumieni we/wy
 Name:		perl-IO-Mux
